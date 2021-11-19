@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    background-color: #333;
+}
+
+
+#codearea{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #fff;
+    width: 100%;
+    min-height: 25px;
+    height: fit-content;
+    font-family: monospace;
+    font-size: 25px;
+}
+#codearea:focus {
+    border-radius: 0px;
+    border: none;
+    outline: none;
+}
+.monospace{
+    /* padding: 10px; */
+    box-sizing: border-box;
+    background-color: #222;
+    /* background-color: none; */
+    color: #fff;
+    width: 100%;
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.no_outline, .no_outline:focus{
+    outline: none;
+    border: none;
+    resize: none;
+}
+.mainContainer{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    align-content: space-between;
+    /* width: 100%; */
+
+}
+.std{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#stderr{
+    font-size: 15px;
+}
+#stdout{
+    font-size: 15px;
+}
